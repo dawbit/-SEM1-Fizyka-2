@@ -1,0 +1,174 @@
+\documentclass{article}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\begin{document}
+\title{\huge\bfseries Pomiar prędkości dźwięku w powietrzu metodą przesunięcia fazowego (oscyloskopową)}
+\date{}
+\author{}
+\maketitle
+\section{Wstęp teoretyczny}
+\subsection{Fala akustyczna}
+Fala akustyczna jest to rozchodzące się w ośrodku zaburzenie gęstości i ciśnienia w postaci fali podłużnej, któremu towarzyszą drgania cząsteczek ośrodka. Zaburzenia te polegają na przenoszeniu energii mechanicznej przez drgające cząstki ośrodka bez zmiany ich średniego położenia. Definicja fali akustycznej nie ogranicza się tylko w częstotliwościach i amplitudach słyszalności przez ludzkie zmysły.\\\\
+Wychylenie z położenia równowagi cząsteczek ośrodka opisuje równanie fali:
+$$y = A\sin (\omega t - kz + \phi)$$
+$$\omega = \frac{2\pi}{\lambda}$$
+$$k = \frac{2\pi}{T}$$
+gdzie:\\
+
+ $A$ - amplituda
+ 
+ $k$ - wektor fali
+ 
+ $\omega$ - częstość fali
+ 
+ $t$ - czas
+ 
+ $z$ - współrzędna położenia
+ 
+ $y$ - miara odchylenia od stanu równowagi\\\\ 
+Wielkościami charakteryzującymi falę akustyczną są:
+\begin{itemize}
+    \item Częstotliwość - określającą wysokość dźwięku
+    \item Natężenie - określające głośność dźwięku
+    \item Skład widmowy fali akustycznej - określający barwę dźwięku
+\end{itemize}
+Część okresu fali w której znajduje się punkt fali określany jest przez jej fazę i w ruchu harmonicznym wyrażana jest ona w radianach. Różnicą pomiędzy wartościami fazy dwóch okresów fali nazywamy przesunięciem fazowym.
+\subsection{Prędkość dźwięku w różnych ośrodkach}
+Prędkość dźwięku w różnych ośrodkach zależy od temperatury, gęstości, naprężenia i ciśnienia. Im temperatura jest wyższa tym cząsteczki poruszają się szybciej przez co prędkość dźwięku jest większa. Wzór na prędkość dźwięku:
+
+$$v = \frac{\lambda}{T}$$
+\begin{center}
+T - okres fali    $\lambda$ - długość fali
+\end{center}
+W stałych warunkach prędkość dźwięku jest w miarę stabilna wiec można ją określić. Przy
+temperaturze $20^{\circ}$C, ciśnienie normalne $101325 Pa$, prędkość dźwięku dla poszczególnych ośrodków wynosi:
+
+$$stal - 5100 \frac{m}{s}$$
+$$beton -  3800 \frac{m}{s}$$
+$$woda -  1490 \frac{m}{s}$$
+$$powietrze - 343 \frac{m}{s}$$
+
+
+\subsection{Oscyloskop}
+Oscyloskop jest to urządzenie pomiarowe, służące do obserwowania, obrazowania i badania przebiegów zależności pomiędzy dwiema wielkościami fizycznymi. W oscyloskopie analogowym obraz przebiegu rysowany jest na ekranie lampy oscyloskopowej, w czasie rzeczywistym, w takt zmiany przebiegu i upływu czasu. Działania lampy oscyloskopowej polega na wytworzeniu przez katodę elektronów, sformowanie ich w wąską wiązkę przez działo elektronowe oraz wysłanie jej w kierunku ekranu(co tworzy plamkę na środku ekranu). Do odchylenia wiązki służą dwie pary płytek odchylających.\\\\
+Krzywe Lissajous są to krzywe parametryczne wyznaczone przez punkt materialny wykonujący drgania harmoniczne w dówch wzajemnie prostopadłych kierunkach. Możemy wyznaczyć je wzorem:
+$$x(t) = A\sin (at + \delta)$$
+$$y(t) = B\sin (bt)$$
+\begin{flushright}
+\begin{scriptsize}
+Źródła: \\
+\textit{[1]http://www.szkolnictwo.pl/szukaj,Fale$\_$akustyczne} \\
+\textit{[2]http://www.fizykon.org/akustyka/akustyka$\_$predkosc$\_$dzwieku.htm}\\
+\textit{[3]http://fizyka.pisz.pl/strona/145.html}\\
+\textit{[4]http://www.jeybi.prv.pl/}\\
+\textit{[5]https://pl.wikipedia.org/wiki/Krzywa$\_$Lissajous}\\
+\end{scriptsize}
+\end{flushright}
+\section{Przebieg i cel ćwiczenia}
+Celem ćwiczenia jest zbadanie prędkości dźwięku w powietrzu metodą przesunięcia fazowego(oscyloskopową). Źródłem fali był głośnik podłączony do generatora. Odbiornikiem sygnału jest mikrofon zamontowany na ruchomym tłoku, którego położenie względem głośnika odczytuje się z linijki. Częstotliwość fali dźwiękowej sprawdzaliśmy multimetrem cyfrowym o zakresie $20kHZ$, rozdzielczości $1Hz$ i dokładności $1,5\%$ w.w. + $5C$.
+\subsection{Opracowanie pomiarów}
+Temperatura w pomieszczeniu wynosiła podczas wykonywania pomiarów $21,7^{\circ}C$ , a jej niepewność $0,1^{\circ}C$.\\
+Na generatorze zostały ustawione częstotliwości $600Hz$, $800Hz$ oraz $1200Hz$. Przesuwając mikrofon obserwowaliśmy zachowania się elipsy na ekranie oscyloskopu i notowaliśmy położenia mikrofonu dla nachylenia pod kątem $45^{\circ}C$ i $135^{\circ}C$.
+
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    $f[Hz]$ & $x_1 [m]$ & $x_2 [m]$ & $x_3 [m]$ & $\Delta x_1 [m]$ & $\Delta x_2 [m]$\\ \hline
+    $600$ & $2,07$ & $2,35$ & X & $0,28$ & X\\ \hline
+    $800$ & $2,255$ & $2,465$ & X & $0,21$ & X\\ \hline
+    $1200$ & $2,17$ & $2,31$ & $2,45$ & $0,14$ & $0,14$\\ \hline
+    \end{tabular}
+\end{center}
+Wyznaczyliśmy $\Delta x$ za pomocą wzoru 
+$$\Delta x = x_{i+1} - x_i$$
+$$\Delta x = 2,35 - 2,07 = 0,28\ m$$
+Jej średnią wartość oraz niepewność typu B ze wzoru
+$$u(x) = \frac{\phi (x)}{\sqrt{3}}$$
+$$u(x) = \frac{1,5\% \cdot 600 + 5}{\sqrt{3}} = 8,082903769\ Hz $$
+gdzie $\phi (x)$ to najmniejsza podziałka taśmy mierniczej, a w przypadku multimetru jest to wartość podana przez producenta $\phi (x) = 1,5\% \cdot f + 5$.
+\begin{center}
+    \begin{tabular}{|c|c|c|}
+    \hline
+    $\Delta x_{sr}$ & $u(f) [Hz]$ & $u(x) [m]$ \\ \hline
+    $0,28$ & $8,082903769$ & $0,001154701$ \\ \hline
+    $0,21$ & $9,814954576$ & $0,001154701$ \\ \hline
+    $0,14$ & $13,27905619$ & $0,001154701$ \\ \hline    
+    \end{tabular}
+\end{center}
+Dzięki wymierzonych danych mogliśmy obliczyć prędkość dźwięku ze wzoru
+$$ c = 2f\Delta x_{sr} $$
+$$ c = 2 \cdot 600 \cdot 0,28 = 360\ \frac{m}{s}$$
+otrzymaliśmy następujące wyniki
+\begin{center}
+    \begin{tabular}{|c|}
+    \hline
+    $c [\frac{m}{s}]$ \\ \hline
+    $336,00$\\ \hline
+    $336,00$\\ \hline
+    $336,00$\\ \hline    
+    \end{tabular}
+\end{center}
+Na podstawie prawa przenoszenia niepewności, obliczyliśmy niepewność wyznaczonej prędkości
+\begin{center}
+    \begin{tabular}{|c|}
+    \hline
+    $u(c) [\frac{m}{s}]$ \\ \hline
+    $4,733765239$\\ \hline
+    $4,517359111$\\ \hline
+    $4,637298064$\\ \hline    
+    \end{tabular}
+\end{center}
+ze wzoru 
+$$u(c) = \sqrt{\Sigma[\frac{\delta y}{\delta x_k} \cdot u(x_k)]^2}$$
+$$u(c) = \sqrt{[2f \cdot u(x)]^2 + [2 \cdot \Delta x_{sr} \cdot u(f)]^2} = \sqrt{20,48853333 + 1,92} = 4,733765239 \frac{m}{s}$$ 
+
+gdzie $x_k$ jest argumentem po którym obliczyliśmy pochodną.\\
+Po dodaniu i podzieleniu przez ilość wyników otrzymaliśmy średnią prędkość oraz średnią niepewność
+$$c_{sr} = 336 [\frac{m}{s}]$$
+$$u_{sr}(c) = 4,629474138 [\frac{m}{s}]$$
+Po porównaniu(odjęciu) otrzymanych wyników z teoretyczną wartością prędkości dźwięku w temperaturze $21,7^{\circ}C$ uzyskaliśmy wynik  mieszczący się w przedziałach rozszerzonej niepewności pomiarowej.\\
+Wartości tabelaryczne[1]:
+\begin{center}
+    \begin{tabular}{|c|c|}
+    \hline
+    $C^{\circ}$ & $c,\ \frac{m}{s} $ \\ \hline
+    $0$ & $331,8$\\ \hline
+    $10$ & $337,8$\\ \hline
+    $15$ & $340,3$\\ \hline  
+    $20$ & $343,8$\\ \hline 
+    $30$ & $349,6$\\ \hline   
+    \end{tabular}
+\end{center}
+$$c_1 - c_2 > c_{sr}(u) [\frac{m}{s}]$$
+$$344,371 - 336 < 4,629474138 \cdot 2 [\frac{m}{s}]$$
+Wykładnik równania adiabaty obliczyliśmy za pomocą wzoru 
+$$\kappa = \frac{\mu c^2}{RT}$$
+gdzie $R = 8,31 \frac{J}{mol \cdot K}$ - uniwersalna stała gazowa, $\mu = 28,87 \frac{g}{mol}$ - masa molowa powietrza, $T = 294,85 K$ - temperatura powietrza wyrażona w Kelwinach.
+$$\kappa = \frac{\mu c^2}{RT} = 1,33021911$$
+Po obliczeniu niepewność pomiaru wyniosła
+$$u(\kappa ) = \sqrt{2 \cdot \mu \cdot c} 0,019813674$$
+Niepewność rozszerzoną obliczamy ze wzoru:
+$$U(\kappa )=k\cdot u(\kappa )$$
+gdzie k to współczynnik rozszerzenia równy $2$.\\
+Przy porównaniu wyników $\kappa \pm U(\kappa ) < 1,400$ zauważyliśmy, iż wartości od siebie zbyt odbiegają i nie mieszczą się w przedziale niepewności.
+\subsection{Wnioski}
+Wartość uzyskanej prędkości dźwięku odbiega od wartości tabelarycznej  lecz mieści się w ramach rozszerzonej niepewności pomiarowej. Wykładnik równania adiabaty zbyt odbiega od wartości tabelarycznej.\\
+Wartości tabelaryczne[2]:
+\begin{center}
+    \begin{tabular}{|c|c|}
+    \hline
+    $C^{\circ}$ & $\kappa $ \\ \hline
+    $0$ & $1,403$\\ \hline
+    $20$ & $1,400$\\ \hline
+    $100$ & $1,401$\\ \hline    
+    \end{tabular}
+\end{center}
+Powodem tego może być nie uwzględnienie wzrostu temperatury podczas dokonywania pomiarów.\\
+\begin{flushright}
+\begin{scriptsize}
+\textit{[1]https://pl.wikipedia.org/wiki/Prędkość\_ dźwięku} \\
+\textit{[2]https://pl.wikipedia.org/wiki/Wykładnik\_ adiabaty}\\
+\end{scriptsize}
+\end{flushright}
+\end{document}

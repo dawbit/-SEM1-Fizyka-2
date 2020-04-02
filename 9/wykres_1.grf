@@ -1,0 +1,93 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.1 Service Pack 1
+
+[Axes]
+xMin = -9.56401869
+xMax = 8.43598131
+xTickUnit = 1
+xGridUnit = 1
+xShowGrid = 1
+xAutoTick = 0
+xAutoGrid = 0
+xLabel = Natężenie prądu I[mA]
+yMin = -8.40443244
+yMax = 9.59556756
+yTickUnit = 1
+yGridUnit = 1
+yShowGrid = 1
+yAutoTick = 0
+yAutoGrid = 0
+yLabel = Napięcie Halla U[mV]
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+LegendPlacement = 0
+LegendPos = 6.37523364457944,-5.14497297621622
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 2
+Style = 0
+LineSize = 2
+LabelPosition = 1
+PointCount = 13
+Points = -6,1.6;-5,1.3;-4,1.1;-3,0.8;-2,0.5;-1,0.2;0,0;1,-0.3;2,-0.5;3,-0.8;4,-1.2;5,-1.4;6,-1.7;
+LegendText = U(I=1A)
+
+[PointSeries2]
+FillColor = clBlue
+LineColor = clBlue
+Size = 2
+Style = 0
+LineSize = 2
+LabelPosition = 1
+PointCount = 13
+Points = -6,3.3;-5,2.7;-4,2.2;-3,1.6;-2,1;-1,0.5;0,0;1,-0.5;2,-1;3,-1.6;4,-2.2;5,-2.7;6,-3.3;
+LegendText = U(I=2A)
+
+[PointSeries3]
+FillColor = clFuchsia
+LineColor = clBlue
+Size = 2
+Style = 0
+LineSize = 2
+LabelPosition = 1
+PointCount = 13
+Points = -6,5.1;-5,4.2;-4,3.4;-3,2.6;-2,1.7;-1,0.8;0,0;1,-0.8;2,-1.6;3,-2.5;4,-3.4;5,-4.3;6,-5.1;
+LegendText = U(I=3A)
+
+[Func1]
+FuncType = 0
+y = -0.27362637*x-0.03076923
+LegendText = f(x)=-0.2736*x-0.0308; R²=0.9985
+Color = clRed
+Size = 2
+
+[Func2]
+FuncType = 0
+y = -0.54285714*x-6.83214169E-17
+LegendText = f(x)=-0.5429*x-6.8321E-17; R²=0.9995
+Color = clBlue
+Size = 2
+
+[Func3]
+FuncType = 0
+y = -0.84835165*x+0.00769231
+LegendText = f(x)=-0.8484*x+0.0077; R²=0.9998
+Color = clFuchsia
+Size = 2
+
+[Data]
+TextLabelCount = 0
+FuncCount = 3
+PointSeriesCount = 3
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

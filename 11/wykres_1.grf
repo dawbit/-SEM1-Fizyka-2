@@ -1,0 +1,58 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.1 Service Pack 1
+
+[Axes]
+xMin = -0.09397843
+xMax = 0.76791284
+xTickUnit = 0.05
+xGridUnit = 0.05
+xAutoTick = 0
+xAutoGrid = 0
+xLabel = x [mm]
+yMin = -148.76283185
+yMax = 1607.11313302
+yTickUnit = 250
+yGridUnit = 250
+yAutoTick = 0
+yLabel = I [imp/min]
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+LegendPlacement = 0
+LegendPos = 0.370960372594202,-129.780388988228
+
+[PointSeries1]
+FillColor = clBlue
+LineColor = clBlue
+Size = 2
+Style = 0
+LineSize = 2
+LabelPosition = 1
+PointCount = 11
+Points = 0,1449.28;0.05,862.07;0.1,641.03;0.15,485.44;0.2,337.84;0.25,271;0.3,209.64;0.35,159.24;0.4,12219;0.45,91.16;0.5,69.78;
+xErrorBarType = 1
+xErrorBarValue = 0.01
+yErrorBarType = 3
+yErrorBarData = 57.66711262;29.94071802;21.39496558;15.84401211;10.85047833;8.6560874;6.669279632;5.05273554;3.868793251;2.885731898;2.208051842;
+LegendText = Seria 1
+
+[Func1]
+FuncType = 0
+y = 974.78189971*0.03778107^x
+LegendText = f(x)=974.7819*0.0378^x; R²=-0.1248
+Color = clFuchsia
+Size = 2
+
+[Data]
+TextLabelCount = 0
+FuncCount = 1
+PointSeriesCount = 1
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+

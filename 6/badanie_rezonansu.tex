@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{float}
+\begin{document}
+\title{\huge\bfseries Badanie rezonansu w szeregowym obwodzie LC}
+\date{}
+\author{}
+\maketitle
+\section{Wstęp teoretyczny}
+\subsection{Drgania wymuszone}
+Drganiami wymuszonymi\footnote{https://pl.wikipedia.org/wiki/Drgania\_wymuszone, data: 06.04.2017} nazywamy drgania, które wywołane są poprzez siłę, której wartość zmienia się okresowo. Dodatkowo siła ta nie może powodować zmian parametrów układu drgań.\\\\
+W drganiach wymuszonych amplituda zależy od różnicy miedzy częstotliwością $\Omega$ siły wymuszającej, a częstotliwością $\omega_0$ drgań swobodnych układu drgającego.
+Zatem równanie różniczkowe drgań wymuszonych to\footnote{http://www.if.pw.edu.pl/\~anadam/WykLadyFO/FoWWW\_15.html, data: 06.04.2017}:
+$$\frac{d^2I}{dt^2}+\frac{RdI}{Ldt}+\frac{I}{LC} = \frac{U_0\Omega}{L} sin\Omega t$$
+\subsection{Rezonans}
+Pojęciem rezonansu\footnote{https://pl.wikipedia.org/wiki/Rezonans, data: 06.04.2017} określa się zjawisko fizyczne, dotyczące drgań wymuszonych, objawiające się wzrostem amplitudy drgań układu drgającego przy określonej częstotliwości siły wymuszającej. Częstotliwością drgań układu drgającego przy którym występuje rezonans nazywamy częstotliwością rezonansową.\\\\
+Dobroć jest wielkością charakteryzującą układ rezonansowy, określającą o ile razy amplituda wymuszonych drgań rezonansowych jest większa od amplitudy w obszarze częstości nierezonansowym. Wyrażana jest wzorem\footnote{https://pl.wikipedia.org/wiki/Dobroć, data: 06.04.2017}
+$$Q = 2\pi f_r\frac{E_d}{P}$$
+gdzie $E_d$ to energia drgań, $f_r$ to częstotliwość rezonansowa, P to średnia moc tracona przez układ.\\
+Szerokość połówkowa krzywej rezonansowej to szerokość krzywej mierzona w połowie jej wysokości.
+$$\Delta f = \frac{f_0}{Q}$$
+
+Aby określić częstotliwość rezonansową obwodu LC możemy zastosować wzór Thomsona:
+$$f= \frac{\omega}{2\pi} = \frac{1}{2\pi \sqrt{LC}}$$
+gdzie $f$ – częstotliwość obwodu w hercach, $L$ – indukcyjność cewki w henrach, $C$ – pojemność kondensatora w faradach, $\omega$ – częstość kołowa w radianach na sekundę. \\
+Warunkiem rezonansu w szeregowym  układzie jest spełnienie równania:
+$$\omega L  = \frac{1}{\omega C}$$
+Przesunięcie fazowe względem napięcia wymuszającego wynosi:
+$$\phi_r = \frac{\sqrt{\omega_0^2 - 2\beta^2}}{\beta}$$
+gdzie $\beta = \frac{R}{2L}$ to współczynnik tłumienia, $\omega_0 = \sqrt{\frac{1}{LC}}$ to częstość drgań własnych.\\
+Dobroć w szeregowym układzie LC obliczamy wzorem:
+$$ Q = R\sqrt{\frac{C}{L}} = \frac{R}{\omega_0 L}$$
+gdzie $R$ to zastępcza szeregowa rezystancja układu.
+\end{document}
